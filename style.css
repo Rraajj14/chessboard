@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#chessboard{
+    height: 1000px;
+    width: 1000px;
+    border: 10px solid gray;
+    transform: scale(0.65);
+    transform: translateY(100px) translateX(100px); 
+}
+.row{
+    height: 125px;
+    width: 1000px;
+}
+.black{
+    height: 125px;
+    width: 125px;
+    background-color: black;
+    float: left;
+    font-size: 90px;
+    text-shadow: 1px 1px  white;
+    text-align: center;
+    
+}
+.white{
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    float: left;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    
+}
+h1{
+    color: red;
+    transform: translateX(40%);
+}
